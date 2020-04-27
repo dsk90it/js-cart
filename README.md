@@ -8,9 +8,9 @@ A simple vanilla JS Project
 
 
 ## ❗Requirements [Completed : 0/0]
-✅ Responsive site
-✅ You have to make an AJAX request to fetch data.
-✅ Well written CSS
+- [x] Responsive site
+- [x] Well written CSS
+- [ ] You have to make an AJAX request to fetch data.
 
 
 ## 👨‍💻Tech Stack
