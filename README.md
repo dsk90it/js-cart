@@ -1,26 +1,28 @@
 ## ⚠️ Work in Progress
+
 ## 🛍️ Shopping Cart (Frontend Challenge)
+
 A simple vanilla JS Project
 
-
 ## 🚀 Demo
+
 --
 
-
 ## ❗Requirements [Completed : 0/0]
-- [x] Responsive site
-- [x] Well written CSS
-- [ ] You have to make an AJAX request to fetch data.
 
+-  [x] Responsive site
+-  [x] Well written CSS
+-  [ ] You have to make an AJAX request to fetch data.
 
 ## 👨‍💻Tech Stack
+
 1. HTML
 2. CSS
 3. Vanilla JS
 4. Webpack
 
-
 ## ⚙ Installation
+
 1. Fork this repository to your GitHub account
 2. Clone your fork to your development machine
 3. Install the package dependencies by running `npm install` (or yarn if you prefer)
