@@ -7,6 +7,12 @@ A simple vanilla JS Project
 --
 
 
+## ❗Requirements [Completed : 0/0]
+✅ Responsive site
+✅ You have to make an AJAX request to fetch data.
+✅ Well written CSS
+
+
 ## 👨‍💻Tech Stack
 1. HTML
 2. CSS
