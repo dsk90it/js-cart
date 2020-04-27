@@ -1,5 +1,4 @@
 ## ⚠️ Work in Progress
-
 ## 🛍️ Shopping Cart (Frontend Challenge)
 A simple vanilla JS Project
 
