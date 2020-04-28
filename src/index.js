@@ -1,6 +1,3 @@
-import heading from './heading'
+import './styles/defaults.css'
 
-const headingEl = document.createElement('h1')
-headingEl.innerHTML = heading
-
-document.querySelector('#app').append(headingEl)
+console.log('index.js')
