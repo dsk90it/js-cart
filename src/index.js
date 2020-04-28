@@ -1,7 +1,6 @@
-import message from './message'
-import './css/style.css'
+import heading from './heading'
 
-const paragraph = document.createElement('p')
-paragraph.innerHTML = message
+const headingEl = document.createElement('h1')
+headingEl.innerHTML = heading
 
-document.querySelector('#app').append(paragraph)
+document.querySelector('#app').append(headingEl)
