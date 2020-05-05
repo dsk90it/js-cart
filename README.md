@@ -10,9 +10,13 @@ A simple vanilla JS Project
 
 ## ❗Requirements [Completed : 0/0]
 
--  [x] Responsive site
--  [x] Well written CSS
--  [ ] You have to make an AJAX request to fetch data.
+- [x] Responsive site
+- [x] Well written CSS
+- [x] You have to make an AJAX request to fetch data.
+- [ ] Display all products from provided JSON
+- [ ] User should be able to remove the product
+- [ ] User should be able to increment/decrement individual line item
+- [ ] Calculate order summary accordingly
 
 ## 👨‍💻Tech Stack
 
