@@ -91,13 +91,6 @@
 	background-color: #212121;
 }
 
-/* BELOW 375px */
-@media (max-width: 374px) {
-	.item-row .col:nth-child(4) {
-		float: left;
-	}
-}
-
 /* BELOW 768px */
 @media (max-width: 767px) {
 	.item-row {
@@ -141,6 +134,13 @@
 		justify-content: center;
 		align-items: center;
 		color: #bdbdbd;
+	}
+}
+
+/* BELOW 375px */
+@media (max-width: 374px) {
+	.item-row .col:nth-child(4) {
+		float: left;
 	}
 }
 
