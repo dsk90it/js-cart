@@ -17,7 +17,7 @@
 
 /* ITEM CONTAINER */
 .item-container {
-	border: 1px solid #ececec;
+	border: 1px solid #dadada;
 	background-color: #f9f9f9;
 	border-radius: 8px;
 	margin-bottom: 40px;
@@ -28,7 +28,7 @@
 	min-height: 145px;
 	font-size: 13px;
 	line-height: 18px;
-	border-top: 1px solid #ececec;
+	border-top: 1px solid #dadada;
 }
 .item-container .item-heading + .item-row {
 	border-top: 0;
@@ -46,7 +46,7 @@
 	align-items: center;
 	width: 90px;
 	height: 105px;
-	border: 1px solid #eaeaea;
+	border: 1px solid #dadada;
 	overflow: hidden;
 	border-radius: 4px;
 	background-color: #ffffff;
@@ -148,7 +148,6 @@
 @media (min-width: 768px) {
 	.item-container {
 		background-color: #ffffff;
-		border-color: #dadada;
 		margin-bottom: 0;
 		border-bottom: 0;
 		border-bottom-left-radius: 0;
