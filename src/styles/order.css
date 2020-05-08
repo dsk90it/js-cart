@@ -1,0 +1,90 @@
+.order-total {
+	width: 100%;
+}
+.order-total li {
+	display: flex;
+	width: 100%;
+	margin-bottom: 12px;
+	align-items: center;
+}
+.order-total li span + span {
+	margin-left: auto;
+}
+.btns-row {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+}
+
+/* BELOW 768px */
+@media (max-width: 767px) {
+	.order-total {
+		border: 1px solid #ececec;
+		margin-bottom: 40px;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	.order-total li.grand-total {
+		margin: 24px -20px -20px;
+		padding: 16px 20px;
+		background: #ececec;
+		width: auto;
+	}
+
+	.btns-row {
+		width: 100%;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-flow: column-reverse;
+	}
+	.btns-row button {
+		margin-bottom: 24px;
+	}
+}
+
+/* TABLETS */
+@media (min-width: 768px) {
+	.order-total {
+		width: 50%;
+	}
+
+	.order-total li.grand-total {
+		margin-top: 30px;
+	}
+	.order-total li.grand-total span + span {
+		font-size: 24px;
+	}
+
+	.btns-row {
+		width: 50%;
+		margin-left: auto;
+		align-items: flex-end;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+		margin-top: 8px;
+	}
+	.btns-row button {
+		margin-bottom: 12px;
+	}
+}
+
+/* LARGE DESKTOPS */
+@media (min-width: 1200px) {
+	.order-total {
+		width: 400px;
+	}
+
+	.btns-row {
+		width: 400px;
+		align-items: center;
+		flex-direction: unset;
+		flex-wrap: nowrap;
+		margin-top: 12px;
+	}
+	.btns-row button {
+		margin: 0 0 0 auto;
+	}
+}

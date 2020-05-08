@@ -1,0 +1,96 @@
+.delivery-check {
+	width: 100%;
+}
+.delivery-check .form-group {
+	position: relative;
+	font-size: 12px;
+}
+.delivery-check .form-group input {
+	width: 100%;
+	background-color: transparent;
+	height: 32px;
+	border-bottom: 1px solid #3b3b3b;
+	font-size: 14px;
+	padding: 0 64px 0 24px;
+	color: #777777;
+}
+.delivery-check .form-group i,
+.delivery-check .form-group a {
+	position: absolute;
+	line-height: 1;
+}
+.delivery-check .form-group i {
+	left: -3px;
+	font-size: 16px;
+	top: 7px;
+}
+.delivery-check .form-group a {
+	top: 10px;
+	right: 0;
+}
+.delivery-check ul {
+	display: flex;
+	font-size: 10px;
+	line-height: 14px;
+	margin-top: 12px;
+}
+.delivery-check li {
+	position: relative;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.delivery-check li:last-child {
+	padding-right: 0;
+}
+.delivery-check li:before {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	content: '\e87f';
+	font-family: 'Linearicons-Free';
+	font-size: 12px;
+	color: #131f97;
+	line-height: 1;
+}
+
+/* BELOW 375px */
+@media (max-width: 374px) {
+	.delivery-check ul {
+		flex-wrap: wrap;
+	}
+	.delivery-check li {
+		margin-bottom: 8px;
+		width: 100%;
+	}
+	.delivery-check li:before {
+		top: 0;
+	}
+}
+
+/* BELOW 768px */
+@media (max-width: 767px) {
+	.delivery-check {
+		border: 1px solid #ececec;
+		margin-bottom: 40px;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: 13px;
+		line-height: 18px;
+	}
+}
+
+/* TABLETS */
+@media (min-width: 768px) {
+	.delivery-check {
+		width: 50%;
+		padding-right: 40px;
+	}
+}
+
+/* LARGE DESKTOPS */
+@media (min-width: 1200px) {
+	.delivery-check {
+		padding-left: 0;
+		width: 360px;
+	}
+}

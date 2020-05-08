@@ -1,0 +1,16 @@
+.alert {
+	display: block;
+	text-align: center;
+	background-color: #848ac6;
+	color: #ffffff;
+	padding: 11px 20px;
+	margin: 20px 0;
+	font-size: 12px;
+}
+
+/* TABLETS */
+@media (min-width: 768px) {
+	.alert {
+		font-size: 14px;
+	}
+}
