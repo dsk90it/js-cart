@@ -1,14 +1,12 @@
-## ⚠️ Work in Progress
-
-## 🛍️ Shopping Cart (Frontend Challenge)
+## 🛍️ Shopping Cart (Frontend Challenge) [![Netlify Status](https://api.netlify.com/api/v1/badges/b99cef85-025f-46ea-a0fe-a12d7f2e28c5/deploy-status)](https://app.netlify.com/sites/js-cart/deploys)
 
 A simple vanilla JS Project
 
 ## 🚀 Demo
 
-[--](--)
+[https://js-cart.netlify.app/](https://js-cart.netlify.app/)
 
-## ❗Requirements [Completed : 0/0]
+## ❗Requirements [Completed : 7/7]
 
 1. ✅ Responsive site
 2. ✅ Well written CSS
