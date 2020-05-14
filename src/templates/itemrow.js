@@ -11,12 +11,12 @@ const itemRow = (item) => {
           ${item.tagline ? `<i class="tag">${item.tagline}</i>` : ''}
           <p>${item.name}<span class="color-grey">${item.desc}</span></p>
           ${
-						item.planLink
-							? `<span class="color-grey">Extended Warranty 
+					item.planLink
+						? `<span class="color-grey">Extended Warranty 
                   <a class="semi-bold" href="${item.planLink}">View Plans</a>
                 </span>`
-							: ''
-					}
+						: ''
+				}
         </div>
       </div>
       

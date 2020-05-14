@@ -245,7 +245,7 @@ header li i {
 /* SUBHEADER */
 .subheader {
 	background-color: #ffffff;
-	box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.8);
 	padding: 10px 20px;
 }
 .subheader .back-link a {

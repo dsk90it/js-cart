@@ -9,6 +9,7 @@
 	line-height: 1;
 	padding: 7px 4px;
 	cursor: pointer;
+	user-select: none;
 }
 .counter i.disabled {
 	cursor: not-allowed;
