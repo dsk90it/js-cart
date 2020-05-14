@@ -6,17 +6,17 @@ A simple vanilla JS Project
 
 ## 🚀 Demo
 
---
+[--](--)
 
 ## ❗Requirements [Completed : 0/0]
 
--  [x] Responsive site
--  [x] Well written CSS
--  [x] You have to make an AJAX request to fetch data.
--  [x] Display all products from provided JSON
--  [x] User should be able to remove the product
--  [x] User should be able to increment/decrement individual line item
--  [x] Calculate order summary accordingly
+1. ✅ Responsive site
+2. ✅ Well written CSS
+3. ✅ You have to make an AJAX request to fetch data.
+4. ✅ Display all products from provided JSON
+5. ✅ User should be able to remove the product
+6. ✅ User should be able to increment/decrement individual line item
+7. ✅ Calculate order summary accordingly
 
 ## 👨‍💻Tech Stack
 
