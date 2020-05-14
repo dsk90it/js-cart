@@ -1,12 +1,12 @@
 import './styles/defaults.css'
 import getCart from './modules/requests'
 import renderUI from './modules/views'
-import initCounter from './modules/counter'
+import { getGrandTotal } from './modules/summary'
 
 getCart()
 	.then((result) => {
 		renderUI(result)
-		initCounter()
+		getGrandTotal(result)
 	})
 	.catch((err) => {
 		console.log(err)

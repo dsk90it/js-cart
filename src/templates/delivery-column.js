@@ -6,7 +6,7 @@ const deliveryCol = () => {
       <h2 class="regular">Delivery Availability</h2>
       <div class="clearfix fw form-group">
         <i class="lnr lnr-map-marker"></i>
-        <input type="text" value="110003">
+        <input type="text" value="110003" name="pincode">
         <a class="semi-bold" href="#">CHANGE</a>
       </div>
       <ul class="reset-list color-grey">

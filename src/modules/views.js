@@ -4,6 +4,9 @@ import itemRow from '../templates/itemrow'
 import deliveryCol from '../templates/delivery-column'
 import orderCol from '../templates/order-column'
 
+import initCounter from '../modules/counter'
+import deleteItem from '../modules/delete'
+
 const renderUI = (data) => {
 	const products = data.products
 	const contentDOM = document.querySelector('#app')
@@ -11,7 +14,7 @@ const renderUI = (data) => {
 
 	contentDOM.innerHTML = ''
 
-	return (contentDOM.innerHTML += `
+	contentDOM.innerHTML += `
 		${alertBox(data.discount.minTotal, data.discount.discountPercentage)}
 		
 		<h1 class="hidden-xs">Shopping cart</h1>
@@ -37,7 +40,11 @@ const renderUI = (data) => {
 			${deliveryCol()}
 			${orderCol()}
 		</div>
-	`)
+	`
+
+	initCounter(data)
+
+	deleteItem(data)
 }
 
 export { renderUI as default }

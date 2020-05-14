@@ -16,6 +16,11 @@
 	font-size: 12px;
 }
 
+.btns-row button.disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
 /* BELOW 768px */
 @media (max-width: 767px) {
 	.order-total {
